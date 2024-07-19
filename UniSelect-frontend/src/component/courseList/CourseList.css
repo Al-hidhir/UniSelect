@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    background-color: rgba(162, 217, 206, 1);
+    margin: 3rem 7rem;
+  }
+.course-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 3rem 7rem;
+  }
+  
+  .course-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+  
+  .course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .course-header h3 {
+    margin: 0;
+  }
+  
+  .sub-course-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .sub-course-list li {
+    margin: 5px 0;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
